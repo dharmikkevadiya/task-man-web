@@ -1,0 +1,86 @@
+/* login */
+.auth-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* login-left */
+.auth-left {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-left .auth-box {
+  width: 450px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 5px rgb(219, 219, 219);
+}
+
+.auth-left .auth-box > h1 {
+  color: #34485c;
+  margin-bottom: 5px;
+}
+
+.auth-left .auth-box > p {
+  color: #34485c;
+  font-size: 14px;
+}
+
+.error {
+  color: #bf1650 !important;
+  font-size: 14px !important;
+  margin-top: 5px;
+}
+
+.error::before {
+  display: inline;
+  content: "⚠ ";
+}
+.auth-box .form-control {
+  margin-top: 50px;
+}
+
+.auth-box .form-control input {
+  width: 100%;
+  height: 45px;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #34485c;
+}
+
+.form-control input[type="submit"] {
+  background-color: #00afef;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.form-control input[type="submit"]:hover {
+  background-color: #097ba4;
+}
+
+.auth-box .forgot-text {
+  text-align: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.auth-box .signup-text {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.signup-text span {
+  color: #00b3ff;
+  cursor: pointer;
+}
