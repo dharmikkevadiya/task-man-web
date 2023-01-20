@@ -49,7 +49,9 @@ const Login = () => {
 
     if (result.status === 200) {
       localStorage.setItem("token", result?.data?.token);
-      navigate("/");
+      localStorage.setItem("user", JSON.stringify(result?.data));
+
+      navigate("/app");
     } else notify(result.status, result.message);
   };
 

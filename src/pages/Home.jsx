@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      Home <br />
+      <h1>Home Dashboard</h1>
+      {/* <br />
       <Link to="/signup">Signup</Link> <br />
-      <Link to="/login">Login</Link>
+      <Link to="/login">Login</Link> */}
     </div>
   );
 };

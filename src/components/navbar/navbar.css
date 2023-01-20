@@ -1,0 +1,13 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_btn_logout {
+  height: 50px;
+  width: 22px;
+  margin-bottom: 22px;
+  cursor: pointer;
+  margin-right: 37px;
+}
