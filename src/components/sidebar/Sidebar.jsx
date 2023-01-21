@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import {
   FaBars,
+  FaProductHunt,
+  FaShoppingBasket,
+  FaShoppingCart,
+  FaShopware,
   FaSignOutAlt,
   FaTasks,
   FaTh,
@@ -21,9 +25,9 @@ const Sidebar = ({ children }) => {
       icon: <FaTh />,
     },
     {
-      path: "/about",
-      name: "About",
-      icon: <FaUserAlt />,
+      path: "/products",
+      name: "Products",
+      icon: <FaShoppingCart />,
     },
     {
       path: "/tasks",

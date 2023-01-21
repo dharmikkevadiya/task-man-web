@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Sidebar from "../components/sidebar/Sidebar";
-import About from "./About";
+import Products from "./Products";
 import Home from "./Home";
 import NoPage from "./NoPage";
 import Tasks from "./Tasks";
@@ -16,7 +16,7 @@ const SidebarRoute = () => {
           <Route path="app" index element={<Home />} />
           <Route path="tasks" element={<Tasks />} />
           <Route path="users" element={<Users />} />
-          <Route path="about" element={<About />} />
+          <Route path="products" element={<Products />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Sidebar>
