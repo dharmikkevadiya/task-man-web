@@ -77,18 +77,20 @@ const Login = () => {
               {passwordShown ? (
                 <AiOutlineEye
                   style={{
-                    marginLeft: "-30px",
-                    marginBottom: "-2px",
+                    marginLeft: "402px",
+                    marginBottom: "22px",
                     cursor: "pointer",
+                    marginTop: "-29px",
                   }}
                   onClick={togglePassword}
                 />
               ) : (
                 <AiOutlineEyeInvisible
                   style={{
-                    marginLeft: "-30px",
-                    marginBottom: "-2px",
+                    marginLeft: "402px",
+                    marginBottom: "22px",
                     cursor: "pointer",
+                    marginTop: "-29px",
                   }}
                   onClick={togglePassword}
                 />

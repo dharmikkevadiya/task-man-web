@@ -14,7 +14,7 @@ import {
 import axios from "axios";
 import React, { useEffect, useMemo, useState } from "react";
 import { useTable, useSortBy } from "react-table";
-const Users = () => {
+const Products = () => {
   const [products, setProducts] = useState([]);
 
   const dummyData = [
@@ -125,4 +125,4 @@ const Users = () => {
   );
 };
 
-export default Users;
+export default Products;
